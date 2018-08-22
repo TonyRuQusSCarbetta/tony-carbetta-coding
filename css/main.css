@@ -1,0 +1,39 @@
+/* AUTOPREFIXER */
+/* https://autoprefixer.github.io/ */
+
+html, body {
+  height: 100%;
+  /* background: #a74752; */
+  font-family: "Raleway", sans-serif;
+}
+
+.michael-jackson {
+  margin: 5px auto;
+  text-align: center;
+  display: block;
+  -webkit-box-shadow: 4px 4px 4px 0px rgba(167,71,82,1);
+  -moz-box-shadow: 4px 4px 4px 0px rgba(167,71,82,1);
+  box-shadow: 4px 4px 4px 0px rgba(167,71,82,1);
+  border-radius: 50%;
+  height: 225px;
+}
+
+p {
+  line-height: 3.0rem;
+}
+
+#profile-pic {
+  border-radius: 50px;
+  -webkit-box-shadow: 4px 4px 4px 0px rgba(167,71,82,1);
+  -moz-box-shadow: 4px 4px 4px 0px rgba(167,71,82,1);
+  box-shadow: 4px 3px 4px 0px rgb(33, 37, 41);
+}
+
+a {
+  
+  color: rgb(88, 0, 0);
+}
+
+a:hover {
+  color: rgba(167,71,82,1);
+}
