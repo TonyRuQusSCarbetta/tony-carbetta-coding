@@ -30,17 +30,83 @@
 
 <body>
 
+  <nav class="nav nav-color">
+    <div class="nav__logo mr-5">
+      <img src="favicon.ico" alt="" class="logo">
+    </div>
+    <div id="mainListDiv" class="main_list nav__wrapper">
+      <ul class="navlinks nav__wrapper__list">
+        <!-- <li class="nav__wrapper__list__item"><img src="favicon.ico" alt="" class="logo"></li> -->
+        <li class="nav__wrapper__list__item"><a href="#About">About</a></li>
+        <li class="nav__wrapper__list__item animated infinite pulse"><a href="#">Projects</a></li>
+        <li class="nav__wrapper__list__item"><a href="#Skills">Skills</a></li>
+        <li class="nav__wrapper__list__item"><a href="#Contact">Contact</a></li>
+      </ul>
+    </div>
+    <span class="navTrigger nav__toggle-btn">
+      <i></i>
+      <i></i>
+      <i></i>
+    </span>
+  </nav>
+
+
   <div class="container">
+
+
+    <!-- ===== END OF NAVBAR BLOCK =====
+    ################################ -->
+
+    <!-- <section class="intro">
+      <div class="intro__align">
+        <h1 class="intro__align__title">main title</h1>
+        <h2 class="intro__align__sub-title">fixed responsive animated navbar</h2>
+      </div>
+    </section> -->
+
+
+
     <div class="row mb-4">
       <!-- Header -->
-      <div class="col-12 animated fadeInDownBig mb-4">
+      <div class="col-12 animated fadeInDownBig mb-4 header">
         <img src="img/Tony.png" alt="Projects" class="img-fluid d-block mx-auto">
       </div>
-      <!-- Projects -->
-      <div class="col-12 mb-4 animated slideInLeft">
-        <img src="img/Projects.png" alt="Projects" class="img-fluid d-block mx-auto">
+
+      <!-- About -->
+      <!-- <div class="col-12 mb-4">
+        <img src="img/About.png" alt="Projects" class="img-fluid d-block mx-auto animated slideInLeft">
+      </div> -->
+
+      <section id="About">
+        <div class="row">
+          <div class="col-md-6 animated slideInLeft d-inline-block">
+            <p>I fell in love with Web Development way back in the days of Myspace. When I turned my background color from
+              white to blue I thought it was the coolest thing since Michael Jackson did the moonwalk...
+              <img src="https://media1.tenor.com/images/e53101c53ef96a9f2970ea0f7a3f0d80/tenor.gif?itemid=5152413" class="responsive-img michael-jackson"
+                alt="moonwalk"> Over ten years later I am still changing background colors, except now they are
+              on complex websites/applications & I absolutely love it! I made the transition from selling over one million
+              dollars a year to working as a full time developer and have been reaching new heights ever since.</p>
+          </div>
+          <!-- Profile Pic -->
+          <div class="col-md-6 mb-4">
+            <img id="profile-pic" src="img/profile-pic.png" alt="profile-pic" class="img-fluid animated fadeInRightBig">
+          </div>
+
+        </div>
+    </div>
+  </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="Projects">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 mb-4 animated slideInLeft">
+          <img src="img/Projects.png" alt="Projects" class="img-fluid d-block mx-auto">
+        </div>
       </div>
     </div>
+
 
     <div class="row animated tada">
       <div class="col-4 hvr-bob mb-4">
@@ -75,200 +141,77 @@
         </a>
       </div>
     </div>
-    <!-- About -->
-    <div class="col-12 mb-4">
-      <img src="img/About.png" alt="Projects" class="img-fluid d-block mx-auto animated slideInLeft">
-    </div>
-
-    <div class="row">
-      <div class="col-md-6 animated slideInLeft d-inline-block">
-        <p>I fell in love with Web Development way back in the days of Myspace. When I turned my background color from white
-          to blue I thought it was the coolest thing since Michael Jackson did the moonwalk...
-          <img src="https://media1.tenor.com/images/e53101c53ef96a9f2970ea0f7a3f0d80/tenor.gif?itemid=5152413" class="responsive-img michael-jackson"
-            alt="moonwalk"> Over ten years later I am still changing background colors, except now they are on complex
-          websites/applications & I absolutely love it! I made the transition from selling over one million dollars a year
-          to working as a full time developer and have been reaching new heights ever since.</p>
-      </div>
-      <!-- Profile Pic -->
-      <div class="col-md-6 mb-4">
-        <img id="profile-pic" src="img/profile-pic.png" alt="profile-pic" class="img-fluid animated fadeInRightBig">
-      </div>
-
-    </div>
-  </div>
+  </section>
 
 
   <!-- Skills -->
-  <div class="row mb-4">
-    <div class="col-12">
-      <img src="img/Skill.png" alt="Skill" class="img-fluid d-block mx-auto mb-4">
+  <section id="Skills">
+    <div class="row mb-4">
+      <div class="col-12">
+        <img src="img/Skill.png" alt="Skill" class="img-fluid d-block mx-auto mb-4">
+      </div>
+      <div class="col-12">
+        <img src="img/Skills.png" alt="Skills" class="img-fluid d-block mx-auto animated bounceIn">
+      </div>
     </div>
-    <div class="col-12">
-      <img src="img/Skills.png" alt="Skills" class="img-fluid d-block mx-auto animated bounceIn">
-    </div>
-  </div>
+  </section>
 
 
   <!-- Contact -->
-  <div class="container-fluid">
-    <img src="img/Contact.png" alt="Contact" class="img-fluid d-block mx-auto mb-4">
-    <div class="row">
-      <div class="col-md-3 text-center">
-        <h4>Phone</h4>
-        <a href="tel:+1-415-295-2426" class="hvr-grow" target="_blank">
-          <div class="fa fa-phone fa-3x"></div>
-          <p>415-295-2426</p>
-        </a>
+  <section id="Contact">
+    <div class="container-fluid">
+      <img src="img/Contact.png" alt="Contact" class="img-fluid d-block mx-auto mb-4">
+      <div class="row">
+        <div class="col-md-3 text-center">
+          <h4>Phone</h4>
+          <a href="tel:+1-415-295-2426" class="hvr-grow" target="_blank">
+            <div class="fa fa-phone fa-3x"></div>
+            <p>415-295-2426</p>
+          </a>
 
-      </div>
-
-      <div class="col-md-3 text-center">
-        <h4>E-mail</h4>
-        <a href="mailto:TonyCarbetta@gmail.com" class="hvr-grow" target="_blank">
-          <div class="fa fa-envelope fa-3x"></div>
-          <p>TonyCarbetta@gmail.com</p>
-        </a>
-      </div>
-
-
-      <div class="col-md-6 text-center">
-        <h4>Network</h4>
-        <div class="col-3 d-inline-block social">
-          <a href="https://www.github.com/tonyruqusscarbetta" target="_blank"><i class="fa fa-github fa-4x"></i>
-            <h6>Github</h6></a>
         </div>
 
-        <div class="col-3 d-inline-block">
-          <a href="http://www.linkedin.com/in/TonyCarbetta" target="_blank"><i class="fa fa-linkedin fa-4x"></i>
-            <h6>Linkedin</h6></a>
+        <div class="col-md-3 text-center">
+          <h4>E-mail</h4>
+          <a href="mailto:TonyCarbetta@gmail.com" class="hvr-grow" target="_blank">
+            <div class="fa fa-envelope fa-3x"></div>
+            <p>TonyCarbetta@gmail.com</p>
+          </a>
         </div>
 
-        <div class="col-3 d-inline-block">
-          <a href="https://www.facebook.com/CarbettaCoding" target="_blank"><i class="fa fa-facebook fa-4x"></i>
-            <h6>Facebook</h6></a>
-        </div>
-      </div>
-    </div>
 
-    <div class="row align-items-center justify-content-center">
-      <a href="http://www.CarbettaCoding.com" target="_blank"><img class="img-fluid hvr-grow" src="img/Carbetta-Coding-Dark-Red.png"
-          alt="CarbettaCoding"></a>
-    </div>
-    <div class="float-left">© 2018 All right reserved</div>
-    <div class="float-right">Developed by Tony Carbetta</div>
-
-
-  </div>
-  </div>
-
-
-
-  <!--Section: Contact v.2-->
-  <section class="section">
-
-    <!--Section heading-->
-    <h2 class="h1-responsive font-weight-bold text-center my-5">Contact us</h2>
-    <!--Section description-->
-    <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly.
-      Our team will come back to you within matter of hours to help you.</p>
-
-    <div class="row">
-
-      <!--Grid column-->
-      <div class="col-md-9 mb-md-0 mb-5">
-        <form id="contact-form" name="contact-form" action="mail.php" method="POST">
-
-          <!--Grid row-->
-          <div class="row">
-
-            <!--Grid column-->
-            <div class="col-md-6">
-              <div class="md-form mb-0">
-                <input type="text" id="name" name="name" class="form-control">
-                <label for="name" class="">Your name</label>
-              </div>
-            </div>
-            <!--Grid column-->
-
-            <!--Grid column-->
-            <div class="col-md-6">
-              <div class="md-form mb-0">
-                <input type="text" id="email" name="email" class="form-control">
-                <label for="email" class="">Your email</label>
-              </div>
-            </div>
-            <!--Grid column-->
-
+        <div class="col-md-6 text-center">
+          <h4>Network</h4>
+          <div class="col-3 d-inline-block social">
+            <a href="https://www.github.com/tonyruqusscarbetta" target="_blank"><i class="fa fa-github fa-4x"></i>
+              <h6>Github</h6></a>
           </div>
-          <!--Grid row-->
 
-          <!--Grid row-->
-          <div class="row">
-            <div class="col-md-12">
-              <div class="md-form mb-0">
-                <input type="text" id="subject" name="subject" class="form-control">
-                <label for="subject" class="">Subject</label>
-              </div>
-            </div>
+          <div class="col-3 d-inline-block">
+            <a href="http://www.linkedin.com/in/TonyCarbetta" target="_blank"><i class="fa fa-linkedin fa-4x"></i>
+              <h6>Linkedin</h6></a>
           </div>
-          <!--Grid row-->
 
-          <!--Grid row-->
-          <div class="row">
-
-            <!--Grid column-->
-            <div class="col-md-12">
-
-              <div class="md-form">
-                <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
-                <label for="message">Your message</label>
-              </div>
-
-            </div>
+          <div class="col-3 d-inline-block">
+            <a href="https://www.facebook.com/CarbettaCoding" target="_blank"><i class="fa fa-facebook fa-4x"></i>
+              <h6>Facebook</h6></a>
           </div>
-          <!--Grid row-->
-
-        </form>
-
-        <div class="text-center text-md-left">
-          <a class="btn btn-primary" onclick="validateForm()">Send</a>
         </div>
-        <div class="status"></div>
       </div>
-      <!--Grid column-->
 
-      <!--Grid column-->
-      <div class="col-md-3 text-center">
-        <ul class="list-unstyled mb-0">
-          <li><i class="fa fa-map-marker fa-2x"></i>
-            <p>San Francisco, CA 94126, USA</p>
-          </li>
-
-          <li><i class="fa fa-phone mt-4 fa-2x"></i>
-            <p>+ 01 234 567 89</p>
-          </li>
-
-          <li><i class="fa fa-envelope mt-4 fa-2x"></i>
-            <p>contact@mdbootstrap.com</p>
-          </li>
-        </ul>
+      <div class="align-items-center justify-content-center w-75 mx-auto bg-light banner mb-4">
+        <a href="http://www.CarbettaCoding.com" target="_blank"><img class="img-fluid hvr-grow" src="img/Carbetta-Coding-Dark-Red.png"
+            alt="CarbettaCoding"></a>
       </div>
-      <!--Grid column-->
-
-    </div>
-
+      <div class="float-left">© 2018 All right reserved</div>
+      <div class="float-right">Developed by Tony Carbetta</div>
   </section>
-  <!--Section: Contact v.2-->
+
+  </div>
+  </div>
 
 
 
-
-
-
-
-
-  <!-- Main external JS -->
-  <script src="js/scripts.js"></script>
   <!-- JQuery -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <!-- Bootstrap tooltips -->
@@ -277,6 +220,8 @@
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
   <!-- MDB core JavaScript -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.9/js/mdb.min.js"></script>
+  <!-- Main external JS -->
+  <script src="js/scripts.js"></script>
 </body>
 
 </html>
